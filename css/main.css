@@ -15,7 +15,8 @@ body {
 }
 
 a {
-	color: #bcbbbb;
+	color: #7e7e7e;
+	font-size: 10px;
 }
 
 a:link {
@@ -24,10 +25,14 @@ a:link {
 
 hr {
 	width: 100%;
-	height: 10px;
+	height: 5px;
 	color: black;
 	background-color: black;
 	border: 0px;
+}
+
+.caps {
+	text-transform: uppercase;
 }
 
 .flexbox {
@@ -38,21 +43,33 @@ hr {
 	flex-wrap: wrap;
 }
 
+/* Header */
 header {
 	width: 100%;
 	display: inline-flex;
 	justify-content: space-between;
 }
 
-.logo {
+.ykc {
+	width: 100px;
 	margin-top: 15px;
 	margin-left: 10px;
 }
 
-.ykc {
-	width: 100px;
+.name {
+	margin-bottom: 0px;
+	margin-top: 50px;
 }
 
+.job {
+	font-size: 10px;
+	margin-top: 0px;
+	text-align: right;
+	letter-spacing: 5px;
+	color: #7e7e7e;
+}
+
+/* Middle */
 .middle {
 	display: block;
 	margin-left: auto;
@@ -64,8 +81,15 @@ header {
 	max-width: 960px;
 }
 
+/* Featured Work */
 section {
 	width: 100%;
+}
+
+.featured {
+	margin: 10px;
+	letter-spacing: 5px;
+	margin-bottom: 0px;
 }
 
 .works {
@@ -73,6 +97,11 @@ section {
 	flex-wrap: wrap;
 	display: inline-flex;
 	justify-content: space-between;
+}
+
+.project-title {
+	text-align: right;
+	margin: 0px;
 }
 
 @media only screen and (max-width: 790px) {
