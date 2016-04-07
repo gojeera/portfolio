@@ -104,7 +104,7 @@ section {
 	margin: 0px;
 }
 
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 959px) {
 	
 	.works {
 		justify-content: center;
@@ -113,4 +113,29 @@ section {
 	.project {
 		margin: 0px 5px;
 	}
+}
+
+@media only screen and (max-width: 629px) {
+	.ykc {
+		margin-right: 20px;		
+	}
+	
+	.shrink {
+		width: 250px;
+	}		
+}
+	
+@media only screen and (max-width: 507px) {
+	.ykc {
+		margin-top: 30px;		
+	}
+	
+	.name {
+		margin-top: 20px;
+	}
+	
+	.job {
+		text-align: left;
+	}
+
 }
