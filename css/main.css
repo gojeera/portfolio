@@ -4,9 +4,9 @@
 
 * {
 	-webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
@@ -105,11 +105,11 @@ section {
 }
 
 @media only screen and (max-width: 959px) {
-	
+
 	.works {
 		justify-content: center;
 	}
-	
+
 	.project {
 		margin: 0px 5px;
 	}
@@ -117,23 +117,23 @@ section {
 
 @media only screen and (max-width: 629px) {
 	.ykc {
-		margin-right: 20px;		
+		margin-right: 20px;
 	}
-	
+
 	.shrink {
 		width: 250px;
-	}		
+	}
 }
-	
+
 @media only screen and (max-width: 507px) {
 	.ykc {
-		margin-top: 30px;		
+		margin-top: 30px;
 	}
-	
+
 	.name {
 		margin-top: 20px;
 	}
-	
+
 	.job {
 		text-align: left;
 	}
