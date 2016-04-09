@@ -1,7 +1,3 @@
-*/ {
-	outline: 1px solid red;
-}
-
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -28,7 +24,7 @@ hr {
 	height: 5px;
 	color: black;
 	background-color: black;
-	border: 0px;
+	border: 0;
 }
 
 .caps {
@@ -57,13 +53,13 @@ header {
 }
 
 .name {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	margin-top: 50px;
 }
 
 .job {
 	font-size: 10px;
-	margin-top: 0px;
+	margin-top: 0;
 	text-align: right;
 	letter-spacing: 5px;
 	color: #7e7e7e;
@@ -71,14 +67,13 @@ header {
 
 /* Middle */
 .middle {
-	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .main-img {
+	display: block;
 	width: 100%;
-	max-width: 960px;
 }
 
 /* Featured Work */
@@ -89,7 +84,7 @@ section {
 .featured {
 	margin: 10px;
 	letter-spacing: 5px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .works {
@@ -101,7 +96,7 @@ section {
 
 .project-title {
 	text-align: right;
-	margin: 0px;
+	margin: 0;
 }
 
 @media only screen and (max-width: 959px) {
@@ -111,7 +106,7 @@ section {
 	}
 
 	.project {
-		margin: 0px 5px;
+		margin: 0 5px;
 	}
 }
 
